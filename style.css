@@ -48,3 +48,20 @@ body{
     border: 2px solid rgb(22, 22, 40);
     border-radius: 5px;
 }
+.button:hover{
+    background-color: rgb(15, 15, 49);
+    color: white;
+    cursor: pointer;
+}
+.profile{
+    height: 300px;
+    width: 250px;
+    display: flex;
+    
+}
+.intro{
+    display: flex;
+    padding-top: 20px;
+    border: 2px solid white;
+}
+

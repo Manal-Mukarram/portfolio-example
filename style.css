@@ -97,7 +97,7 @@ body {
     border-bottom: 2px solid blue; */
     padding-left: 50px;
     padding-right: 50px;
-    border-image: url(border.jpg);
+    /* border-image: url(border.jpg); */
 }
 
 .quote {

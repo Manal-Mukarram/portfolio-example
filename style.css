@@ -2,12 +2,20 @@
     --white: #ffffff;
 }
 
-img {
-    position: relative;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    position: absolute;
     height: 150px;
     width: 200px;
-    top: 0;
-    left: 0;
+    top: 40px;
+    left: 20px;
+    height: 1.5rem;
+    width: 2rem;
 }
 
 body {
@@ -29,21 +37,15 @@ body {
 .text {
     color: var(--white);
     text-align: center;
-    text-shadow: 0 0 3px #857595, 0 0 5px #181851;
+    text-shadow: 0 0 3px #857595, 0 0 5px #000000;
 }
 
 .lorem {
-    color: rgb(161, 194, 217);
-}
-
-.logo {
-    height: 1.5rem;
-    width: 2rem;
+    color: rgb(255, 255, 255);
 }
 
 .navbar ul {
     list-style: none;
-    ;
 }
 
 .navbar li {
@@ -64,16 +66,22 @@ body {
     display: flex;
     align-items: center;
     padding: 0px 25px;
-    border-bottom: 0.5px solid var(--white);
+    /* border-bottom: 0.5px solid var(--white); */
+    margin-top: 40px;
 }
 
-.navbar .button {
-    margin-left: 700px;
+.button {
+    position: absolute;
+    right: 20px;
+    margin-top: 30px;
     padding: 10px 10px;
     border: 2px solid rgb(22, 22, 40);
     border-radius: 5px;
 }
-
+.nav {
+    display: flex;
+    justify-content: center;
+}
 .button:hover {
     background-color: rgb(15, 15, 49);
     color: white;
@@ -83,7 +91,7 @@ body {
 .profile {
     height: 200px;
     width: 200px;
-    display: flex;
+    /* display: inline-block; */
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 40px;
@@ -92,12 +100,14 @@ body {
 .intro {
     display: flex;
     padding-top: 20px;
+    align-items: center;
     /* border: 2px solid white; */
     /* border-right: 2px solid blue;
     border-bottom: 2px solid blue; */
     padding-left: 50px;
     padding-right: 50px;
     /* border-image: url(border.jpg); */
+    /* text-shadow: 0 0 3px #ffffff, 0 0 5px #000000; */
 }
 
 .quote {

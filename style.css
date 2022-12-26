@@ -151,14 +151,14 @@ h3 {
 
 .clients {
     display: flex;
-    padding-left: 25%;
+    justify-content: space-around;
+    padding: 20px;
 }
 
-.client-item {
-    /* padding: 50px; */
+/* .client-item {
     padding-right: 50px;
     padding-left: 50px;
-}
+} */
 
 .client-img {
     height: 50px;
